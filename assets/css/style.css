@@ -1,0 +1,48 @@
+html {
+    padding: 0;
+    height: 100%;
+    margin:0;
+    width:100%;
+    font-family: "Pacifico",cursive;
+}
+body{
+    background-color:rgb(233, 233, 245);
+}
+h1{
+    margin-left: 20px;
+}
+
+.subtitle{
+    margin-top: 50px;
+    font-size:large;
+}
+
+#nuevaTarea{
+    width:90%;
+    height:50px;
+    border-radius:10px;
+}
+#agregarTarea{
+    height: 50px;
+    width: 150px;
+    border-radius:10px;
+    margin-left:10px;
+    background-color:#198754;
+    color:white;
+    font-size:larger;
+
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 50% 25% 20%;
+    gap: 10px;
+    color:blue;
+    font-size:larger;
+    list-style-type:none;
+}
+#tareas{
+    list-style-type:none;
+}
+span {
+    color:Red;
+}
